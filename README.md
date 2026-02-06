@@ -1,73 +1,96 @@
-# Welcome to your Lovable project
+# Project Nexus - Enhanced Campus Super-App
 
-## Project info
+**Version:** 2.0.0-enhanced
+**Framework:** React 18.2.0
+**License:** MIT
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+### Overview
+Project Nexus is the central hub for modern campus life. All core modules are now finalized, fully functional, and optimized for mobile and desktop views. This enhanced version integrates academic management, social commerce, and AI-driven insights into a single, cohesive ecosystem.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+##  New in the Enhanced Version
 
-**Use Lovable**
+* **Explorer's Guide:** A complete navigation and discovery suite featuring 12 distinct tools.
+* **Academic Cockpit:** A robust management system designed for students, including 15+ features.
+* **Refined Dashboard:** Improved with advanced data visualization and quick-access widgets.
+* **Device Optimization:** Fluid responsiveness ensuring functionality across mobile, tablet, and desktop.
+* **Statistics:** 53 active features, 6 AI components, and 100% core module completion.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+##  Complete Feature Set
 
-**Use your preferred IDE**
+### 1. Dashboard (Home)
+* Personalized welcome banner.
+* Quick statistics for CGPA, attendance, and pending assignments.
+* Real-time schedule widget with upcoming deadline alerts.
+* Local area preview and system settings access.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 2. Daily Pulse
+* **Live Mess Menu:** Displays nutritional data, caloric tracking, and dietary icons (Veg/Non-Veg).
+* **Mess Crowd Prediction:** AI-based analysis of dining hall traffic to predict wait times.
+* **Mail Summarizer:** NLP-driven tool for email condensation and priority scoring.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 3. Student Exchange
+* **Lost and Found:** Features automated object recognition for image uploads to categorize items.
+* **Marketplace:** Peer-to-peer listings equipped with AI-driven price suggestions.
+* **Travel Sharing:** Coordination for cab-pooling, including route planning and cost splitting.
 
-Follow these steps:
+### 4. Explorer's Guide
+* **Discovery:** Filter local points of interest by distance, category, or "vibe."
+* **Campus Navigation:** Includes a building finder and route optimization.
+* **Transport Hub:** Real-time tracking for campus shuttles and bike-share station status.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 5. Academic Cockpit
+* **Timetable:** Weekly and daily views including room numbers and professor details.
+* **Assignments:** Lifecycle tracking from pending status to graded.
+* **Performance:** Integrated GPA calculators and AI grade forecasting.
+* **Analytics:** Visual charts displaying study pattern insights and performance trends.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 6. Notes Hub
+* **Document Support:** Compatible with PDF, DOC, and DOCX formats.
+* **Privacy Controls:** Granular settings for Public or Private visibility.
+* **Monetization:** Infrastructure allowing students to sell high-quality notes.
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+##  AI and Machine Learning Integrations
 
-**Edit a file directly in GitHub**
+1.  **Email Summarizer:** Utilizes Natural Language Processing (NLP) for rapid communication review.
+2.  **Object Recognition:** Computer vision algorithms for identifying items in Lost & Found uploads.
+3.  **Price Engine:** Algorithm-based market value recommendations for used goods.
+4.  **Crowd Prediction:** Time-series analysis to forecast facility traffic.
+5.  **Grade Forecasting:** Predictive analytics based on current performance data.
+6.  **Study Insights:** Pattern detection algorithms to suggest optimized learning schedules.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+##  Tech Stack & Design
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+* **Frontend:** React 18.2.0
+* **Icons:** Lucide React
+* **Styling:** Modular CSS-in-JS (Featuring Glassmorphism & Gradient themes)
+* **State Management:** React Hooks (`useState`, `useEffect`)
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+##  Installation and Setup
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+To run this project locally, execute the following commands in your terminal:
 
-## How can I deploy this project?
+```bash
+# 1. Create the React Application
+npx create-react-app project-nexus
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+# 2. Navigate to the project directory
+cd project-nexus
 
-## Can I connect a custom domain to my Lovable project?
+# 3. Install dependencies
+npm install lucide-react
 
-Yes, you can!
+# 4. Implementation
+# Replace the default src/App.js with the 'project-nexus-enhanced.jsx' file.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+# 5. Launch the application
+npm start
