@@ -1,5 +1,7 @@
 # Project Nexus - Enhanced Campus Super-App
 
+# Link to Project: https://nexus-campus254.lovable.app/
+
 **Version:** 2.0.0-enhanced
 **Framework:** React 18.2.0
 **License:** MIT
@@ -74,23 +76,3 @@ Project Nexus is the central hub for modern campus life. All core modules are no
 * **State Management:** React Hooks (`useState`, `useEffect`)
 
 ---
-
-##  Installation and Setup
-
-To run this project locally, execute the following commands in your terminal:
-
-```bash
-# 1. Create the React Application
-npx create-react-app project-nexus
-
-# 2. Navigate to the project directory
-cd project-nexus
-
-# 3. Install dependencies
-npm install lucide-react
-
-# 4. Implementation
-# Replace the default src/App.js with the 'project-nexus-enhanced.jsx' file.
-
-# 5. Launch the application
-npm start
